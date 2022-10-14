@@ -1,0 +1,39 @@
+.anchor{
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size:18px;
+    margin: 0;
+}
+.heading {
+    width: 100%;
+    margin: 0; 
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border-color: rgb(102, 102, 204);
+}
+body{
+    height: 100%;
+    margin: 0; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.cr_footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    line-height: 2;
+    color: white;
+}
+canvas{
+
+background-color: rgb(136, 216, 216);
+border-radius: 50px 50px;
+border: 5px solid black;
+border: 5px;
+}

@@ -1,0 +1,49 @@
+ .header {
+     font-size: 40px;
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px rgb(0, 0, 0);
+     animation-name: trocaCor;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     border-color: rgb(102, 102, 204);
+ }
+
+ @keyframes trocaCor {
+     0% {
+         background-color: red;
+     }
+
+     25% {
+         background-color: green
+     }
+
+     50% {
+         background-color: blue;
+     }
+
+     75% {
+         background-color: yellow;
+     }
+
+     100% {
+         background-color: red;
+     }
+ }
+
+ body {
+     height: 100%;
+     margin: 0; 
+     background: linear-gradient(217deg, rgba(255,0,0,.5), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.5), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.5), rgba(0,0,255,0) 70.71%);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+
+.anchor{
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size:18px;
+}
